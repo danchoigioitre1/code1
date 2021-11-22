@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+<style>
+ 
+.tieude1{
+ padding-bottom: 1px;
+ margin-bottom: 1px;
+}
+    
+select {width: 200px;}
+.money{
+    width: 60px;
+}
+    
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: #E5DD9C solid;
+    border-collapse: collapse;
+}
+th,td {border: 1px solid #dddddd;
+            text-align: left;
+            padding: 10px;
+
+}
+tr:nth-child(odd){ background-color: #B0C7C1;}
+
+</style>
+
+
+
+</head>
+<body> <form action="">
+
+    <h1>Market Research Survey</h1>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+<br> <p class="tieude1">What is your age range ?</p>
+<br> <select name="age-range" >
+<option value="18-24">18-24</option>
+<option value="25-34">25-34</option>
+<option value="35-50">35-50</option>
+<option value="50+">50+</option>
+
+
+
+</select>
+
+<br>
+<p>What is your yearly in come range ?</p>
+<br><select name="money" ">
+<option value="0-25000">$0-$25000</option>
+<option value="25001-50000">$25001-$50000</option>
+<option value="50001-100000">$50001-$100000</option>
+<option value="100000+">$100000+</option>
+
+</select>
+
+
+<br>
+<p>Gender Identity</p>
+<input type="radio" name="Gender-identity" value="male">Male <br>
+<input type="radio" name="Gender-identity" value="female">Female <br>
+<input type="radio" name="Gender-identity" value="nonbinary">Nonbinary <br>
+<input type="radio" name="Gender-identity" value="other">Other
+<input type="text" name="Gender-identity " maxlength="250">
+
+
+
+<br>
+
+
+<br>
+
+<p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+<br> <input type="checkbox" name="product" value="p1" >Product 1
+<br> <input type="checkbox" name="product" value="p2" >Product 2
+<br> <input type="checkbox" name="product" value="p3" >Product 3
+
+<br><br>
+<p></p>
+
+<p>How often would you use our new product</p>
+<br> <input type="radio" name="time" value="daily" >Daily
+<br> <input type="radio" name="time" value="Weekly" >Weekly
+<br> <input type="radio" name="time" value="monthly" >Monthly
+
+   <p>What would you pay for the new product ?</p>
+<br> <p>$ <input class="money" type="number" name="dollars" placeholder="dollars">. <input class="money" type="number" name="cents" placeholder="Cents"></p>
+ <br>
+<p>What features would you like to see in the new product.</p>
+<br>
+<textarea name="features" id="" cols="30" rows="10"></textarea>
+
+<br><br><p>Please rate your level of agreement with the following statements</p>
+<br>
+<table> 
+    <tr>
+        <th></th>
+        <th>Strongly Disagree</th>
+        <th>Disagree</th>
+        <th>Agree</th>
+        <th>Strongly agree</th>
+    </tr>
+    <tr>
+        <td>Our products are priced fairly.</td>
+        
+        <td><input type="radio" value="1" >1 </td>
+        <td><input type="radio" value="2" >2 </td>
+        <td><input type="radio" value="3" >3 </td>
+        <td><input type="radio" value="4" >4 </td>
+    </tr>
+
+    <tr>
+        <td>Our products are hight quality.</td>
+        
+        <td><input type="radio" value="1" >1 </td>
+        <td><input type="radio" value="2" >2 </td>
+        <td><input type="radio" value="3" >3 </td>
+        <td><input type="radio" value="4" >4 </td>
+    </tr>
+    <tr>
+        <td>You would recommend our product to a friend or coworker.</td>
+        
+        <td><input type="radio" value="1" >1 </td>
+        <td><input type="radio" value="2" >2 </td>
+        <td><input type="radio" value="3" >3 </td>
+        <td><input type="radio" value="4" >4 </td>
+    </tr>
+<br>
+    
+
+</table> <br><br>
+<button type="submit"><img src="./làm bt về nhà/images/Screenshot 2021-11-22 184915.png" alt="submit-picture"></button>
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
