@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So thich cua ban</title>
+
+
+
+<style>
+#table{ border: solid 15px #13FDEA;
+    border-collapse: collapse;
+}
+
+.text{ text-align: right;
+}
+.tieude{background-color: orange;
+color:white;
+text-align: center;
+border-bottom: solid black 2px;
+margin-top: 0%;}
+.text1{ text-align: right;
+margin-top: 0%;}
+
+</style>
+<style>
+#form2{ 
+    background-color: blanchedalmond;
+}
+h3{ background-color:#04FEF2 ;
+color: blue;
+font-style: oblique ;}
+
+
+
+</style>
+
+
+
+
+
+
+</head>
+
+<body>
+    
+    <h1>EX1</h1>
+    <form>
+    <table id="table" class="table1">
+        <tr >
+            <th colspan="2" > <h2 class="tieude">SO THICH CUA BAN</h2></th>
+        </tr>
+        <tr>
+            <td class="text"> Ho va Ten</td>
+            <td> <input type="text" placeholder="dien ho va ten" autofocus name="hovaten"></td>
+        </tr>
+        <tr>
+            <td class="text"> Email</td>
+            <td> <input type="text" placeholder="dien Email" autofocus name="email"></td>
+        </tr>
+        <tr>
+            <td   ><p class="text1">so thich</p></td>
+            <td>
+                <table>
+                    <tr>
+
+                        <td><input type="checkbox" value="thethao">the thao</td>
+                        <td><input type="checkbox" value="amnhac">am nhac</td>
+                        <td><input type="checkbox" value="docsach">doc sach</td>
+                    </tr>
+                    <tr>
+                        <td> <input type="checkbox" value="luotweb">luot web</td>
+                        <td> <input type="checkbox" value="choigame">choi game</td>
+                        <td> <input type="checkbox" value="dienanh">dien anh</td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" value="dulich">du lich</td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+
+ <tr> 
+     <td></td>
+     <td><button type="submit">gui thong tin</button>
+        <input type="reset"></td>
+ </tr>
+
+    </table>
+</form>
+
+
+<h1>EX2:</h1>
+<form action="somewhere" id="form2">
+
+<h3>Dang ki hoc vien</h3>
+Ho va ten <input type="text" name="ten" autofocus> <br><br>
+ngay sinh <input type="text" name="ngay" size="3">--- thang <input type="text" name="thang" size="3">---nam <input type="text" name="nam" size="3">
+<br>gioi tinh <input type="radio" value=" nam" name="gioi tinh">nam <input type="radio" name="gioitinh" value="nu">nu   <input type="radio" name="gioitinh" value="both">both
+<br>dia chi: <br> <textarea name="diachi" cols="50" rows="4"></textarea>
+<br>lop : <select name="lop" >
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="daihoc">dai hoc</option>
+<option value="dilam">di lam</option>
+
+
+</select><br> <br>
+Email <input type="text" placeholder="your email" name="email"> 
+ <br>  <br>
+Dien thoai <input type="number" name="phone-number">
+ <br> <br>
+<button type="submit"> dang ky</button>
+<button type="reset"> nhap lai</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
