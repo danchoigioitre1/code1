@@ -15,7 +15,7 @@ margin: auto;
 ul{
     display:block ;
     margin: auto;
-    width: 55%;
+    width:55%;
 }
  #header-menu > li{ 
     display: inline;
@@ -33,8 +33,13 @@ p{
  /* overfllow:invisible-> hien bth*/
 }
 
+article {float: left;
+width: 70%;}
+aside{ float: left;
+    width: 30%;}
+    
 
-
+.photo{ width: 30%;}
 
 
 
@@ -55,33 +60,36 @@ p{
 
 </head>
 <body>
+    <img id="logo-img" src="https://www.steinway.com/.resources/steinway-main-webapp/resources/assets/svg/ss-lyre2.svg" alt="logo">
+
+        <ul id="header-menu"> <br>
+        <li>BUYER'S GUIDE</li>
+        <li>PIANO</li>
+        <li>SPIRIO</li>
+        <li>MUSIC AND ARTISTS</li>
+        <li>EDUCATION</li>
+        <li>CAREERS</li>
+        </ul>
+        <br>
     
 <article>
-    <section><img id="logo-img" src="https://www.steinway.com/.resources/steinway-main-webapp/resources/assets/svg/ss-lyre2.svg" alt="logo">
-
-<ul id="header-menu"> <br>
-<li>BUYER'S GUIDE</li>
-<li>PIANO</li>
-<li>SPIRIO</li>
-<li>MUSIC AND ARTISTS</li>
-<li>EDUCATION</li>
-<li>CAREERS</li>
-</ul>
-<br>
+    
 <p>For over 160 years, STEINWAY & SONS has been dedicated to making the finest pianos in the world. Our pioneering handcrafted methods are still employed today to ensure our uncompromising standards of quality, in turn ensuring that the STEINWAY remains the peerless instrument of uncompromising expression.
 </p>
 </section>
 <br>
 <section>
-<img src="https://www.steinway.com/.imaging/mte/steinway-us-theme/Small-Square/dam/misc/buyers-guide-square2.jpg/jcr:content/buyers-guide-square2.jpg
+<img class="photo" src="https://www.steinway.com/.imaging/mte/steinway-us-theme/Small-Square/dam/misc/buyers-guide-square2.jpg/jcr:content/buyers-guide-square2.jpg
 " alt="">
-<img src="https://www.steinway.com/.imaging/mte/steinway-us-theme/Small-Square/dam/misc/floor-templates/floor_template_square.jpg/jcr:content/floor_template_square2.jpg
+<img class="photo" src="https://www.steinway.com/.imaging/mte/steinway-us-theme/Small-Square/dam/misc/floor-templates/floor_template_square.jpg/jcr:content/floor_template_square2.jpg
 " alt="">
-<img src="https://www.steinway.com/.imaging/mte/steinway-us-theme/Small-Square/dam/spirio/spirio_r/STS_Spirio_r_Close_Up_with_iPad_RGB_square.jpg/jcr:content/STS_Spirio_r_Close_Up_with_iPad_RGB_square.jpg
+<img class="photo" src="https://www.steinway.com/.imaging/mte/steinway-us-theme/Small-Square/dam/spirio/spirio_r/STS_Spirio_r_Close_Up_with_iPad_RGB_square.jpg/jcr:content/STS_Spirio_r_Close_Up_with_iPad_RGB_square.jpg
 " alt="">
 </section>
 
 
+
+</article>
 <aside>
     <ul>
     <li>BUYER'S GUIDE</li>
@@ -94,7 +102,6 @@ p{
 
 
 </aside>
-</article>
 
 </body>
 </html>
