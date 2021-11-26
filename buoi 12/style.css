@@ -1,0 +1,18 @@
+img {width: 100%;}
+body > div{float: left;
+width: 16%;
+transition-duration: 2s;
+margin: 20px 2% 20px 2%; opacity: 0.5;} 
+/* body > div : chi ap dung cho cac div la con cua body
+ body div : ap dung cho tat ca div ben trong body */
+ h1{ text-align: center;}
+ h1 + div{background-color: cornflowerblue}
+ /* h1 + div: chi ap dung cho 1 the div duy nhat ben duoi h1 */
+ h1 ~ div { background-color: cornflowerblue;}
+ /* h1 ~ div :ap dung cho tat ca div nam duoi h1 */
+
+
+ body > div:hover{
+     background-color: yellow; 
+     opacity: 1.0;
+ }
