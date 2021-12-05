@@ -31,3 +31,10 @@ aside iframe {width: 85%;}
 #article { width: 70%;
 height: auto; 
 float: left;}
+#footer {position: fixed;
+bottom: 0;
+border: inset;
+background-color: grey;
+width: 100%;
+text-align: center;
+color :white}
